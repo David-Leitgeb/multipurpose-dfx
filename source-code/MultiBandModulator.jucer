@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="tQf79u" name="MultiBandModulator" projectType="audioplug"
+              useAppConfig="0" addUsingNamespaceToJuceHeader="0" displaySplashScreen="1"
+              jucerFormatVersion="1" pluginManufacturer="David Leitgeb">
+  <MAINGROUP id="yscrgf" name="MultiBandModulator">
+    <GROUP id="{34AA1D9F-1CAA-41A0-7940-EB386BF382CF}" name="Source">
+      <GROUP id="{64EA1F9F-6A81-C199-246A-16D02F629D4B}" name="Service">
+        <FILE id="Ua1ai9" name="PresetManager.cpp" compile="1" resource="0"
+              file="Source/Service/PresetManager.cpp"/>
+        <FILE id="bZbXsv" name="PresetManager.h" compile="0" resource="0" file="Source/Service/PresetManager.h"/>
+      </GROUP>
+      <FILE id="ZqsTd2" name="ProcessorParameters.cpp" compile="1" resource="0"
+            file="Source/ProcessorParameters.cpp"/>
+      <FILE id="Jag5ah" name="ProcessorParameters.h" compile="0" resource="0"
+            file="Source/ProcessorParameters.h"/>
+      <GROUP id="{4E7DFE6A-226B-AAB1-4E54-707E67DB6D7E}" name="DSP">
+        <FILE id="gNtzRw" name="BandProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/BandProcessor.cpp"/>
+        <FILE id="ltTdQI" name="BandProcessor.h" compile="0" resource="0" file="Source/DSP/BandProcessor.h"/>
+        <FILE id="PgGEIa" name="DelayLineProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/DelayLineProcessor.cpp"/>
+        <FILE id="BmuHNY" name="DelayLineProcessor.h" compile="0" resource="0"
+              file="Source/DSP/DelayLineProcessor.h"/>
+        <FILE id="zZ2291" name="FilterProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/FilterProcessor.cpp"/>
+        <FILE id="j25pSL" name="FilterProcessor.h" compile="0" resource="0"
+              file="Source/DSP/FilterProcessor.h"/>
+        <FILE id="ZvVBij" name="GainProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/GainProcessor.cpp"/>
+        <FILE id="J5Q0dz" name="GainProcessor.h" compile="0" resource="0" file="Source/DSP/GainProcessor.h"/>
+        <FILE id="l8aHWf" name="LFOProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/LFOProcessor.cpp"/>
+        <FILE id="tmwmrv" name="LFOProcessor.h" compile="0" resource="0" file="Source/DSP/LFOProcessor.h"/>
+        <FILE id="lF9hrc" name="PanoramaProcessor.cpp" compile="1" resource="0"
+              file="Source/DSP/PanoramaProcessor.cpp"/>
+        <FILE id="GxCUBj" name="PanoramaProcessor.h" compile="0" resource="0"
+              file="Source/DSP/PanoramaProcessor.h"/>
+      </GROUP>
+      <GROUP id="{A067DF72-D002-D98E-1ED4-414FB05D13FD}" name="GUI">
+        <GROUP id="{F791DE5D-4BCE-EC87-76E9-7439DF703D47}" name="Components">
+          <FILE id="jJQQc2" name="ComponentLabel.h" compile="0" resource="0"
+                file="Source/GUI/Components/ComponentLabel.h"/>
+          <FILE id="v6jA02" name="LFOComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Components/LFOComponent.cpp"/>
+          <FILE id="DmjxxM" name="LFOComponent.h" compile="0" resource="0" file="Source/GUI/Components/LFOComponent.h"/>
+          <FILE id="DSWaHq" name="BandComponentManager.cpp" compile="1" resource="0"
+                file="Source/GUI/Components/BandComponentManager.cpp"/>
+          <FILE id="K0QoJw" name="BandComponentManager.h" compile="0" resource="0"
+                file="Source/GUI/Components/BandComponentManager.h"/>
+          <FILE id="wGmvwe" name="BandComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Components/BandComponent.cpp"/>
+          <FILE id="ifztEr" name="BandComponent.h" compile="0" resource="0" file="Source/GUI/Components/BandComponent.h"/>
+          <FILE id="x53FG4" name="HeaderComponent.cpp" compile="1" resource="0"
+                file="Source/GUI/Components/HeaderComponent.cpp"/>
+          <FILE id="desLi4" name="HeaderComponent.h" compile="0" resource="0"
+                file="Source/GUI/Components/HeaderComponent.h"/>
+        </GROUP>
+        <GROUP id="{34C0898A-6AB8-9126-F885-6ACD40F774D5}" name="LNF">
+          <FILE id="WWW5Sg" name="ComboBoxLNF.cpp" compile="1" resource="0" file="Source/GUI/LNF/ComboBoxLNF.cpp"/>
+          <FILE id="Twk1xI" name="ComboBoxLNF.h" compile="0" resource="0" file="Source/GUI/LNF/ComboBoxLNF.h"/>
+          <FILE id="CPEcwC" name="CustomLNF.cpp" compile="1" resource="0" file="Source/GUI/LNF/CustomLNF.cpp"/>
+          <FILE id="FA44zx" name="CustomLNF.h" compile="0" resource="0" file="Source/GUI/LNF/CustomLNF.h"/>
+          <FILE id="OfCLyu" name="SliderLNF.cpp" compile="1" resource="0" file="Source/GUI/LNF/SliderLNF.cpp"/>
+          <FILE id="Dq44Ly" name="SliderLNF.h" compile="0" resource="0" file="Source/GUI/LNF/SliderLNF.h"/>
+          <FILE id="aUT16r" name="TextButtonLNF.cpp" compile="1" resource="0"
+                file="Source/GUI/LNF/TextButtonLNF.cpp"/>
+          <FILE id="v1p8uh" name="TextButtonLNF.h" compile="0" resource="0" file="Source/GUI/LNF/TextButtonLNF.h"/>
+          <FILE id="CJRcku" name="ToggleButtonLNF.cpp" compile="1" resource="0"
+                file="Source/GUI/LNF/ToggleButtonLNF.cpp"/>
+          <FILE id="BJ4Y2R" name="ToggleButtonLNF.h" compile="0" resource="0"
+                file="Source/GUI/LNF/ToggleButtonLNF.h"/>
+          <FILE id="EGAldh" name="VerticalSliderLNF.cpp" compile="1" resource="0"
+                file="Source/GUI/LNF/VerticalSliderLNF.cpp"/>
+          <FILE id="aFNxWH" name="VerticalSliderLNF.h" compile="0" resource="0"
+                file="Source/GUI/LNF/VerticalSliderLNF.h"/>
+        </GROUP>
+        <FILE id="p8s6Si" name="ThemeColorManager.h" compile="0" resource="0"
+              file="Source/GUI/ThemeColorManager.h"/>
+      </GROUP>
+      <FILE id="YQvEpU" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ScXupn" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="kuhpri" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="m7A2gw" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MultiBandModulator" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MultiBandModulator" enablePluginBinaryCopyStep="1"
+                       vst3BinaryLocation="C:\Program Files\Common Files\VST3"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_core" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE IDE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE IDE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>

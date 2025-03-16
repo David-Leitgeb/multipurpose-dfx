@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multipurpose DFX (EEICT 2025, David Leitgeb)</title>
+    <link rel="icon" href="icons/waveform.svg" type="image/svg+xml">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="content">
+            <h1>Multipurpose Digital Audio Effect:<br>Combining Different Techniques Within a Single Device</h1>
+            <h3>EEICT 2025</h3>
+            <p>
+                David Leitgeb<br>
+                <b>david.leitgeb@vutbr.cz</b><br>
+            </p>
+
+            <h3>Abstract</h3>
+            <p class="justify">This paper introduces an audio effect (FX) plug-in module capable of processing the input signal with several common types of audio manipulation within up to 30 individual bands. The advantage of the proposed implementation lies mostly in its versatility, with potential applications ranging from simple delay up to spatial simulations, such as reverb. Unlike the existing commercial solutions that typically split the input signal into a fixed set of frequency bands, the proposed FX processes the input signal in parallel across all bands, with each band applying optional filtering and other processing independently. This paper includes a basic classification of the proposed FX, a brief overview of similar already available software solutions, description of the methods used during the implementation process and a series of experiments conducted using the suggested implementation. The proposed FX was implemented using the C++ programming language and the JUCE framework.</p>
+            <h3>Resources</h3>
+            <!--GITHUB BUTTON-->
+            <a href="https://github.com/David-Leitgeb/multipurpose-dfx" class="button">
+                <img src="icons/github-logo.svg" alt="GitHub" style="width: 20px; margin-right: 8px;">
+                GitHub
+            </a>
+            <!--PAPER BUTTON-->
+            <a href="" class="button">
+                <img src="icons/file-text.svg" alt="Paper" style="width: 20px; margin-right: 8px;">
+                Paper (to be published)
+            </a>
+
+            <h2 style="margin-top: 10px;">Graphical user interface</h2>
+
+            <div class="image-container">
+                <img src="png/fig_plugin_gui.png" alt="GUI" width="75%">
+            </div>
+
+            <h2>Experiments</h2>
+            <p>The following section includes all experiments prepared for this paper using the proposed FX plug-in. The examples are categorized based on the component of the plug-in being tested.</p>
+            
+            <p><b>Note:</b> All presets must be saved in the automatically generated folder "C:\Users\Public\Documents\MultiBandModulator".</p>
+
+            <p></p>
+
+            <h3>Filter</h3>
+            <div class="examples-container" id="filter">
+                <!--Examples added using js-->
+            </div>
+
+            <h3>Delay line</h3>
+            <div class="examples-container" id="delay_line">
+                <!--Examples added using js-->
+            </div>
+
+            <h3>LFO</h3>
+            <div class="examples-container" id="lfo">
+                <!--Examples added using js-->
+            </div>
+
+            <h3>Additional examples</h3>
+            <p>The following three experiments focus on specific types of effects commonly used in music production. These examples do not include any visual representation.</p>
+
+            <div class="examples-container" id="additional">
+                <!--Examples added using js-->
+            </div>
+
+            <h3>Software</h3>
+             <ul style="list-style-type:circle;">
+              <li>JUCE 7</li>
+              <li>Microsoft Visual Studio Community 2022</li>
+              <li>Matlab R2024b</li>
+              <li>Ableton Live 12 Suite</li>
+              <li>Microsoft Visual Studio Code</li>
+            </ul> 
+            
+        </div>
+    </div>
+
+    <script src="examples.js"></script>
+
+</body>
+
+</html>

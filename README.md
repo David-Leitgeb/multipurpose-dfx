@@ -8,7 +8,7 @@ This paper introduces an audio effect (FX) plug-in module capable of processing 
 - [Listening page](https://david-leitgeb.github.io/multipurpose-dfx)
 
 ### Graphical user interface
-![Graphical interface of the proposed FX plug-in](/listening-page/png/fig_plugin_gui.png)
+![Graphical interface of the proposed FX plug-in](/docs/png/fig_plugin_gui.png)
 
 
 The source code for the proposed FX plug-in is available in the ```source-code``` directory. The plug-in is also available in the VST3 format in the same directory.

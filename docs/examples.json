@@ -9,7 +9,7 @@
     "preset_path": "presets/",
     "preset_name": "[EEICT25] additional_01_chorus.preset",
     "figure_path": "svg/",
-    "figure_name": "",
+    "figure_name": "fig_delay_line_01_vibrato.svg",
     "figure_width": 0
   },
   {
@@ -22,7 +22,7 @@
     "preset_path": "presets/",
     "preset_name": "[EEICT25] additional_02_flanger.preset",
     "figure_path": "svg/",
-    "figure_name": "",
+    "figure_name": "fig_delay_line_01_vibrato.svg",
     "figure_width": 0
   },
   {
@@ -35,7 +35,7 @@
     "preset_path": "presets/",
     "preset_name": "[EEICT25] additional_03_reverb.preset",
     "figure_path": "svg/",
-    "figure_name": "",
+    "figure_name": "fig_delay_line_01_vibrato.svg",
     "figure_width": 0
   },
   {

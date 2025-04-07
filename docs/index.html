@@ -23,7 +23,7 @@
             </p>
 
             <h3>Abstract</h3>
-            <p class="justify">This paper introduces an audio effect (FX) plug-in module capable of processing the input signal with several common types of audio manipulation within up to 30 individual bands. The advantage of the proposed implementation lies mostly in its versatility, with potential applications ranging from simple delay up to spatial simulations, such as reverb. Unlike the existing commercial solutions that typically split the input signal into a fixed set of frequency bands, the proposed FX processes the input signal in parallel across all bands, with each band applying optional filtering and other processing independently. This paper includes a basic classification of the proposed FX, a brief overview of similar already available software solutions, description of the methods used during the implementation process and a series of experiments conducted using the suggested implementation. The proposed FX was implemented using the C++ programming language and the JUCE framework.</p>
+            <p class="justify">This paper introduces an audio effect (FX) plug-in module capable of processing the input signal with several common types of audio manipulation within up to 30 individual bands. The advantage of the proposed implementation lies mostly in its versatility, with potential applications ranging from simple delay up to spatial simulations, such as reverb. Unlike the existing commercial solutions that typically split the input signal into a fixed set of frequency bands, the proposed FX processes the input signal in parallel across all bands, with each band applying optional filtering and other processing independently. The proposed FX was implemented using the C++ programming language and the JUCE framework.</p>
             <h3>Resources</h3>
             <!--GITHUB BUTTON-->
             <a href="https://github.com/David-Leitgeb/multipurpose-dfx" class="button">
@@ -71,12 +71,26 @@
                 <!--Examples added using js-->
             </div>
 
+            <h3>Computational demands</h3>
+            <p>The proposed FX plug-in was tested on the following system and settings:</p>
+            <ul style="list-style-type:circle;">
+                <li>CPU: AMD Ryzen 7 9700X</li>
+                <li>OS: Windows 11 Home (24H2)</li>
+                <li>DAW: Ableton Live 12 Suite (12.1)</li>
+                <li>Sample Rate: 44 100</li>
+                <li>Buffer Size: 128</li>
+              </ul>
+
+              <p class="justify">To estimate the computational demands of the proposed FX plug-in, the reverb preset was used, as it is the most demanding of all included presets, utilizing all 30 available bands. When tested on the specified system with the given configuration, Ableton Live reported values between 18&thinsp;% and 22&thinsp;% on its Average CPU meter. According to the Ableton Live manual (link below, page 860), this meter shows how much of the computer’s computational potential is used specifically for audio processing, excluding other system tasks.<br><br>
+              <a href="https://cdn-resources.ableton.com/resources/pdfs/live-manual/12/2025-04-01/live12-manual-en.pdf">Ableton Live 12 Manual</a></p>
+              
+
             <h3>Software</h3>
-             <ul style="list-style-type:circle;">
+            <ul style="list-style-type:circle;">
               <li>JUCE 7</li>
               <li>Microsoft Visual Studio Community 2022</li>
               <li>Matlab R2024b</li>
-              <li>Ableton Live 12 Suite</li>
+              <li>Ableton Live 12 Suite (12.1)</li>
               <li>Microsoft Visual Studio Code</li>
             </ul> 
             

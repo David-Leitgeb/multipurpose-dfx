@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Parameters presetName="[EEICT25] delay_line_04_polynomial_interpolation.preset" version="65536">
+<Parameters presetName="[EEICT25] delay_line_04_interpolation.preset" version="65536">
   <PARAM id="Band10Blend" value="0.0"/>
   <PARAM id="Band10Bypass" value="1.0"/>
   <PARAM id="Band10Delay" value="1.0"/>

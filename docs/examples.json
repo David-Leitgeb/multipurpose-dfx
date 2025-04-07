@@ -79,15 +79,15 @@
   },
   {
     "category": "delay_line",
-    "title": "Polynomial interpolation",
+    "title": "Second-order polynomial interpolation",
     "parameter_list": "a<sub>FB</sub>, and a<sub>BL</sub> = 0 %, a<sub>FF</sub> = 100 %, Delay = 5 ms, Depth = 5 ms, Rate = 10 Hz",
     "audio_path": "audio/",
     "audio_input": "audio_delay_line_04_no_interpolation.wav",
-    "audio_output": "audio_delay_line_04_polynomial_interpolation.wav",
+    "audio_output": "audio_delay_line_04_interpolation.wav",
     "preset_path": "presets/",
-    "preset_name": "[EEICT25] delay_line_04_polynomial_interpolation.preset",
+    "preset_name": "[EEICT25] delay_line_04_interpolation.preset",
     "figure_path": "svg/",
-    "figure_name": "fig_delay_line_04_polynomial_inteprolation.svg",
+    "figure_name": "fig_delay_line_04_inteprolation.svg",
     "figure_width": 100
   },
   {
